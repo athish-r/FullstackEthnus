@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task5</title>
+    <style>
+      div {
+        margin-bottom: 10px;
+        border: 1px solid black;
+      }
+      label {
+        border: 1px solid black;
+        display: inline-block;
+        width: 150px;
+        text-align: left;
+        margin-top: 0px;
+      }
+      input {
+        border: 1px solid black;
+        max-width: 50%;
+        text-align: left;
+      }
+      span {
+        border: 1px solid black;
+      }
+      .r {
+        width: 50px;
+      }
+      body {
+        padding: 0px;
+        display: inline-block;
+        border: 1px solid black;
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <label> FirstName:</label>
+      <input type="text" align="center" />
+    </div>
+    <div>
+      <label> Lastname:</label>
+      <input type="text" />
+    </div>
+    <div>
+      <label> Email:</label>
+      <input type="email" />
+    </div>
+    <div>
+      <label> Password:</label>
+      <input type="password" />
+    </div>
+    <div>
+      <label> RePassword:</label>
+      <input type="password" />
+    </div>
+    <span class="gender">
+      <label> Gender</label>
+      <input class="r" type="radio" name="g" />Male
+      <input class="r" type="radio" name="g" />Female
+    </span>
+    <div>
+      <label> Age</label>
+      <input type="number" />
+    </div>
+
+    <div>
+      <label> Phone Number:</label>
+      <input type="tel" />
+    </div>
+    <div>
+      <label style="margin-top: 0"> Address</label>
+      <textarea name="message" id="message" cols="30" rows="4"></textarea>
+    </div>
+    <div>
+      <label> State</label>
+      <input type="text" />
+    </div>
+    <div>
+      <label> Country</label>
+      <select value="choose your country">
+        <option value="">--Choose a country--</option>
+        <option value="">India</option>
+      </select>
+    </div>
+    <div>
+      <label> Languages known:</label>
+      <input type="checkbox" style="width: 10px" />English
+      <input type="checkbox" style="width: 10px" />Kannada
+      <input type="checkbox" style="width: 10px" />Hindi
+      <input type="checkbox" style="width: 10px" />Telugu
+    </div>
+    <div>
+      <input type="checkbox" required style="width: 10px" />I herbly declare all
+      the given details are true
+    </div>
+    <div>
+      <p style="text-align: right">Log in to <a href="#">Ethnus</a> website</p>
+    </div>
+
+    <input
+      type="submit"
+      value="Register"
+      style="margin-left: 150px; text-align: center; width: 100px"
+    />
+  </body>
+</html>
